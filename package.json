@@ -1,0 +1,15 @@
+{
+  "name": "bananonz-wrapper",
+  "version": "1.0.29",
+  "description": "A simple package to semplificate the Bananonz's api use.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord.js",
+    "discord-chatbot"
+  ],
+  "author": "",
+  "license": "ISC"
+}
