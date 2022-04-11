@@ -1,6 +1,6 @@
 {
   "name": "bananonz-wrapper",
-  "version": "1.0.29",
+  "version": "1.0.31",
   "description": "A simple package to semplificate the Bananonz's api use.",
   "main": "index.js",
   "scripts": {
