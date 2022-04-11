@@ -15,51 +15,11 @@
 npm install --save bananonz-wrapper
 ```
 
-# Chat Bot
+# Methods
 
 ```js
-const bananonz = require("bananonz-wrapper");
-const Discord = require("discord.js");
-const client = new Discord.Client();
-
-client.on("message", async message => {
-  const chatbot = await bananonz.chatbot(message.content, "Bananonz / Bot owner", "Bot / Bot name")
-  message.channel.send(chatbot)
-})
-```
-
-# Drake Meme Generator
-```js
-client.on("message", async message => {
-if (message.content.toLowerCase() === "!drake") {
-  const drake = await bananonz.drake("Bad", "Good")
-  const img = new Discord.MessageAttachment(drake, "drake.png")
-  message.channel.send(img)
-}
-})
-
-```
-
-# PetPet Gif Generator
-```js
-client.on("message", async message => {
-if (message.content.toLowerCase() === "!pet") {
-  let avatar = await message.author
-  const petpet = await bananonz.pet()
-  const img = new Discord.MessageAttachment(petpet, "drake.png")
-  message.channel.send(img)
-}
-})
-
-```
-
-# Password Generator 
-```js
-client.on("message", async message => {
-if (message.content.toLowerCase() === "!password") {
-  const password = await bananonz.password()
-  message.channel.send(password))
-}
-})
-
+var.chatbot("message" "Owner Name", "Chat Bot name")
+var.drake("Bad", "Good")
+var.pet("Image URL / File")
+var.password()
 ```
